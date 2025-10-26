@@ -1,7 +1,6 @@
 from cryptography.fernet import Fernet
 import os
 import maskpass
-from dotenv import load_dotenv
 class User():
     def __init__(self, user_name, last_user_name, passwd):
         self.user_name = user_name
